@@ -6,5 +6,5 @@ class Show < ActiveRecord::Base
     actors.collect {|actor| "#{actor.name} - #{actor.show.name}"}
   end
 
-  
+
 end
